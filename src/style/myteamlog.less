@@ -1,0 +1,27 @@
+@import 'css/teamloglist/teamloglist.less';
+.myteamlog{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  &__tabnav{
+    display:flex;
+    justify-content: space-between;
+    width:375px;
+    &--list{
+      flex:1;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height: 45px;
+      font-size:16px;
+      color:#fec215;
+      font-weight:700;
+      border:2px solid #000;
+      background: #000;
+      &.active{
+        color:#000;
+        background: #fec215;
+      }
+    }
+  }
+}

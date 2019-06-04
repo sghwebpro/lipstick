@@ -1,0 +1,58 @@
+
+  .withdrawlog{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    &__tit{
+      display:flex;
+      align-items: center;
+      width:375px;
+      height: 50px;
+      background: #000;
+      margin-bottom: 10px;
+      div{
+        flex:1;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size:16px;
+        color:#fec215;
+      }
+    }
+    &__list{
+      display:flex;
+      align-items: center;
+      width:375px;
+      height: 50px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #f1f1f1;
+      &--status{
+        flex:1;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size:14px;
+        color:#000;
+      }
+      &--time{
+        flex:1;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size:14px;
+        color:#000;
+      }
+      &--money{
+        flex:1;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size:14px;
+        color:#ff6060;
+        &.del{
+          color:#6dbf2b;
+        }
+      }
+
+    }
+  }

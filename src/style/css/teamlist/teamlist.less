@@ -1,0 +1,47 @@
+
+  .teamlist{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    width:345px;
+    height: 58px;
+    border-bottom: 2px solid #f1f1f1;
+    &__list{
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 12px;
+      width:320px;
+      height: 58px;
+      border-radius:4px;
+      margin-bottom: 10px;
+      &--info{
+        display:flex;
+        align-items: center;
+      }
+      &--img{
+        width:36px;
+        height: 36px;
+        margin-right: 10px;
+        img{
+          width: 36px;
+          height: 36px;
+          border-radius:36px;
+        }
+      }
+      &--nick{
+        text-align: left;
+        width:130px;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        overflow:hidden;
+        font-size:14px;
+        color:#000;
+      }
+      &--time{
+        font-size:14px;
+        color:#000;
+      }
+    }
+  }

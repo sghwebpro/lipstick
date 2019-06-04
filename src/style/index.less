@@ -1,0 +1,39 @@
+@import 'css/base/base.less';
+@import 'css/top/top.less';
+@import 'css/shoplist/shoplist.less';
+@import 'css/rule/rule.less';
+@import 'css/result/result.less';
+@import 'css/paymoney/paymoney.less';
+@import 'css/navitem/navitem.less';
+.index{
+  background: #fff;
+  min-height: 100vh;
+  &__shopitem{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:345px;
+    margin:0 auto;
+    padding-bottom: 20px;
+  }
+  &__gametest{
+    position:fixed;
+    bottom: 65px;
+    right:12px;
+    width:87px;
+    height: 87px;
+    img{
+      width: 87px;
+      height: 87px;
+    }
+  }
+  &__complain{
+    position:fixed;
+    top:15px;
+    left:10px;
+    img{
+      width: 43px;
+      height: 43px;
+    }
+  }
+}

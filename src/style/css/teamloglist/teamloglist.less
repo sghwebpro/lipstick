@@ -1,0 +1,99 @@
+.teamloglist{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 5px;
+  width:375px;
+  border-bottom: 3px solid #f1f1f1;
+  &__head{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:345px;
+    height: 54px;
+    border-bottom: 1px solid #d7d7d7;
+    &--info{
+      display:flex;
+      align-items: center;
+      flex:1;
+    }
+    &--img{
+      width:38px;
+      height: 38px;
+      margin-right: 10px;
+      img{
+        width: 38px;
+        height: 38px;
+        border-radius:36px;
+      }
+    }
+    &--nick{
+      width:7em;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      overflow:hidden;
+      font-size:14px;
+      color:#000;
+      text-align: left;
+    }
+    &--time{
+      font-size:14px;
+      color:#000;
+    }
+  }
+  &__money{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:345px;
+    height:77px;
+    &--tit{
+      display: flex;
+      align-items: center;
+      div{
+        width:90px;
+        text-align: center;
+        font-size:14px;
+        color:#000;
+        font-weight:700;
+        height:22px;
+      }
+      span{
+        flex:1;
+        height:22px;
+      }
+    }
+    &--con{
+      display: flex;
+      align-items: center;
+      margin-top: 6px;
+      div{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width:90px;
+        font-size:16px;
+        color:#000;
+        font-weight:700;
+        height:37px;
+        border-radius: 37px;
+        background: #fec215;
+      }
+      span{
+        flex:1;
+        align-items: center;
+        justify-content: center;
+        height:37px;
+        font-size:24px;
+        line-height: 40px;
+        color:#000;
+        &:nth-child(2){
+          font-size:16px;
+          line-height: 40px;
+        }
+      }
+
+    }
+  }
+}

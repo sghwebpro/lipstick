@@ -1,0 +1,81 @@
+
+
+.myorder{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  &__tit{
+    display:flex;
+    align-items: center;
+    width:375px;
+    height: 50px;
+    background: #000;
+    div{
+      flex:1;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-size:16px;
+      font-weight:700;
+      color:#fec215;
+    }
+  }
+  &__list{
+    display:flex;
+    align-items: center;
+    width:375px;
+    height: 50px;
+    border-bottom: 2px solid #f1f1f1;
+    background: #fff;
+    &>div{
+      flex:1;
+      text-align: center;
+    }
+    &--time{
+      padding-left: 5px;
+      font-size:14px;
+      color:#000;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      overflow:hidden;
+    }
+    &--name{
+      font-size:14px;
+      padding-right: 5px;
+      color:#000;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      overflow:hidden;
+      
+    }
+    &--status{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      width:66px;
+      height: 28px;
+      font-size:13px;
+      color:#fff;
+      div{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:82px;
+        height: 33px;
+        font-size:14px;
+        color:#000;
+        border:1px solid #000;
+        border-radius: 33px;
+        background: #fec215;
+      }
+      &.no{
+        div{  
+          background: #fff;
+          color:#000;
+          font-size:14px;
+          border:0;
+        }
+      }
+    }
+  }
+}
